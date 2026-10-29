@@ -10,6 +10,8 @@ Scores à la minute, alerte à chaque but, compos, stats, classements et widgets
 <p align="center">
   <a href="https://github.com/fellahamin/barcha-koora/releases/latest/download/BarchaKooraSetup.exe"><b>⬇ Télécharger pour Windows</b></a>
   &nbsp;·&nbsp;
+  <a href="https://fellahamin.github.io/barcha-koora/">🌐 Le site</a>
+  &nbsp;·&nbsp;
   <a href="https://ba9chich.com/BouBatman">☕ Soutenir sur Ba9chich</a>
 </p>
 
