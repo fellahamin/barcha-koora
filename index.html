@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Barcha Koora · Le foot en direct sur ton PC</title>
-<meta name="description" content="Barcha Koora (برشا كورة) : scores en direct, notifications de buts, compositions, statistiques, classements et widgets, pour Windows. Gratuit, sans compte, sans pub.">
-<meta property="og:title" content="Barcha Koora · Le foot en direct sur ton PC">
-<meta property="og:description" content="Scores en direct, buts notifiés, compos, stats, classements et widgets. Pour Windows, gratuit.">
+<title>Barcha Koora · Le foot en direct sur ton PC et ton téléphone</title>
+<meta name="description" content="Barcha Koora (برشا كورة) : scores en direct, notifications de buts, compositions, statistiques, classements et widgets, pour Windows et Android. Gratuit, sans compte, sans pub.">
+<meta property="og:title" content="Barcha Koora · Le foot en direct sur ton PC et ton téléphone">
+<meta property="og:description" content="Scores en direct, buts notifiés, compos, stats, classements et widgets. Pour Windows et Android, gratuit.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fellahamin.github.io/barcha-koora/">
 <meta property="og:image" content="https://fellahamin.github.io/barcha-koora/img/direct.jpg">
@@ -343,18 +343,22 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
   <section class="hero">
     <div class="wrap">
       <div>
-        <span class="eyebrow">Pour Windows · gratuit</span>
-        <h1>Le foot en direct,<br><em>sur ton PC.</em></h1>
+        <span class="eyebrow">Windows et Android · gratuit</span>
+        <h1>Le foot en direct,<br><em>sur ton PC et ton téléphone.</em></h1>
         <p class="ar" lang="ar">برشا كورة</p>
         <p class="lead">Les scores à la minute près, une alerte à chaque but, les compos, les stats et les classements. De la Ligue 1 tunisienne à la Ligue des champions, sans ouvrir dix onglets.</p>
         <div class="ctas">
-          <a class="btn btn-gold btn-big" data-download href="#">
+          <a class="btn btn-gold btn-big" data-win href="#">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
-            Télécharger pour Windows
+            Windows
+          </a>
+          <a class="btn btn-gold btn-big" data-apk href="#">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+            Android
           </a>
           <a class="btn btn-tea" data-donate href="#">☕ Soutenir sur Ba9chich</a>
         </div>
-        <div class="meta"><span data-version>Version 1.0.9</span><span>~30 Mo</span><span>Sans compte</span><span>Sans pub</span></div>
+        <div class="meta"><span data-version>Windows 1.0.9 (~30 Mo)</span><span data-apk-version>Android 0.2.0 bêta (~18 Mo)</span><span>Sans compte</span><span>Sans pub</span></div>
       </div>
       <div class="screen">
         <div class="tv"><img src="img/direct.jpg" alt="Barcha Koora, onglet Direct : Barcelona 2–1 Real Madrid à la 67e minute, avec les buteurs, la possession et les autres matchs du jour" width="1600" height="900"></div>
@@ -424,7 +428,7 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
       <div class="head">
         <span class="eyebrow">Le match en entier</span>
         <h2>Tout ce qu'il te faut, rien de plus.</h2>
-        <p>Une vraie application Windows, légère, qui tourne dans un coin et te prévient quand ça bouge.</p>
+        <p>Une vraie application, légère, sur ton PC ou ton téléphone, qui te prévient quand ça bouge. Widgets et mode grand écran : sur Windows.</p>
       </div>
       <div class="features">
         <div class="feature"><div class="ico">⏱️</div><h3>La vraie minute</h3><p>Les scores et la minute du match en direct, mis à jour toutes les 60 secondes.</p></div>
@@ -464,13 +468,13 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
       <div class="head">
         <span class="eyebrow">Coup d'envoi</span>
         <h2>Installé en trois temps.</h2>
-        <p>Pas besoin d'être administrateur, ni de créer un compte.</p>
+        <p>Sur ton PC : pas besoin d'être administrateur, ni de créer un compte.</p>
       </div>
       <div class="steps">
         <div class="step">
           <h3>Télécharge</h3>
           <p>Le bouton récupère <b>BarchaKooraSetup.exe</b> sur GitHub, où <a data-releases href="#">chaque version</a> est publiée.</p>
-          <p style="margin-top:16px"><a class="btn btn-gold" data-download href="#">⬇ Télécharger</a></p>
+          <p style="margin-top:16px"><a class="btn btn-gold" data-win href="#">⬇ Pour Windows</a></p>
         </div>
         <div class="step">
           <h3>Passe le défenseur</h3>
@@ -483,6 +487,29 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
         </div>
       </div>
       <p class="needs">Windows 10 ou 11 (64 bits) · Microsoft Edge (déjà dans Windows) · une connexion Internet</p>
+
+      <div class="head" id="android" style="margin-top:70px">
+        <span class="eyebrow">Version bêta</span>
+        <h2>Et sur ton téléphone Android.</h2>
+        <p>Elle fonctionne seule, sans le PC : direct, matchs du jour, compétitions et classements, pages de clubs, favoris et alertes.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>Télécharge</h3>
+          <p>Depuis ton téléphone, le bouton récupère <b>BarchaKoora.apk</b> sur GitHub.</p>
+          <p style="margin-top:16px"><a class="btn btn-gold" data-apk href="#">⬇ Pour Android</a></p>
+        </div>
+        <div class="step">
+          <h3>Autorise l'installation</h3>
+          <p>L'application n'est pas sur le Play Store. Android te demandera une autorisation, et Play Protect peut afficher un avertissement :</p>
+          <div class="smart">Autorise l'installation depuis cette source, puis choisis <u>Installer quand même</u>.</div>
+        </div>
+        <div class="step">
+          <h3>Règle tes alertes</h3>
+          <p>Mets une étoile sur tes clubs, puis touche <b>ⓘ</b> : autorise les notifications, la batterie sans restriction et le réveil à l'heure du match. C'est ce qui permet de recevoir les buts, application fermée.</p>
+        </div>
+      </div>
+      <p class="needs">Android 6 ou plus récent · une connexion Internet (environ 3 Mo par heure de direct, l'écran allumé)</p>
     </div>
   </section>
 
@@ -522,10 +549,11 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
       <div class="faq">
         <details><summary>C'est vraiment gratuit ?</summary><p>Oui. Pas d'abonnement, pas de compte, pas de pub. Si tu veux remercier, il y a Ba9chich, mais rien ne t'y oblige.</p></details>
         <details><summary>Pourquoi Windows dit « Windows a protégé votre ordinateur » ?</summary><p>Parce que l'installateur n'a pas de signature payante et que peu de gens l'ont encore lancé. Clique sur « Informations complémentaires », puis « Exécuter quand même ». Le fichier vient directement de la page GitHub du projet.</p></details>
-        <details><summary>D'où viennent les scores ?</summary><p>De sources publiques de résultats en direct, lues par l'application elle-même, sur ton PC. Il n'y a pas de serveur Barcha Koora entre toi et le match.</p></details>
-        <details><summary>Ça marche sur Mac, Linux ou téléphone ?</summary><p>Pas pour l'instant : seulement Windows 10 et 11, en 64 bits.</p></details>
-        <details><summary>Où est-ce installé ? Comment le désinstaller ?</summary><p>Dans ton dossier utilisateur (AppData\Local\Programs\Barcha Koora), sans droits administrateur. Pour l'enlever : Paramètres → Applications → Applications installées → Barcha Koora → Désinstaller.</p></details>
-        <details><summary>Et les mises à jour ?</summary><p>Les matchs, scores et classements se mettent à jour tout seuls, en continu. Pour une nouvelle version de l'application, retélécharge l'installateur ici : il garde tes favoris et tes réglages.</p></details>
+        <details><summary>D'où viennent les scores ?</summary><p>De sources publiques de résultats en direct, lues par l'application elle-même, sur ton PC ou ton téléphone. Il n'y a pas de serveur Barcha Koora entre toi et le match.</p></details>
+        <details><summary>Ça marche sur Mac, Linux ou iPhone ?</summary><p>Pas pour l'instant : Windows 10 et 11 en 64 bits, et Android.</p></details>
+        <details><summary>Les alertes arrivent en retard sur Android ?</summary><p>Vérifie les réglages dans ⓘ. Certaines marques (Samsung, Xiaomi, Huawei) limitent aussi les applications en arrière-plan : autorise Barcha Koora dans leurs réglages de batterie. La version Android est encore en bêta : <a data-issues href="#">signale ton modèle sur GitHub</a>.</p></details>
+        <details><summary>Où est-ce installé ? Comment le désinstaller ?</summary><p>Sur Windows : dans ton dossier utilisateur (AppData\Local\Programs\Barcha Koora), sans droits administrateur. Pour l'enlever : Paramètres → Applications → Applications installées → Barcha Koora → Désinstaller. Sur Android : appui long sur l'icône → Désinstaller.</p></details>
+        <details><summary>Et les mises à jour ?</summary><p>Les matchs, scores et classements se mettent à jour tout seuls, en continu. Pour une nouvelle version, retélécharge l'installateur ou l'APK ici et installe-le par-dessus : tes favoris et tes réglages restent.</p></details>
         <details><summary>Mon club n'est pas là.</summary><p><a data-issues href="#">Écris-le sur GitHub</a> : les compétitions et les équipes s'ajoutent au catalogue au fil des versions.</p></details>
       </div>
     </div>
@@ -536,7 +564,8 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
       <span class="eyebrow">Le match commence</span>
       <h2>Prends ta place en tribune.</h2>
       <div class="ctas">
-        <a class="btn btn-gold btn-big" data-download href="#">⬇ Télécharger Barcha Koora</a>
+        <a class="btn btn-gold btn-big" data-win href="#">⬇ Windows</a>
+        <a class="btn btn-gold btn-big" data-apk href="#">⬇ Android</a>
         <a class="btn btn-tea" data-donate href="#">☕ Ba9chich</a>
         <a class="btn" data-repo href="#">GitHub</a>
       </div>
@@ -558,20 +587,26 @@ footer .legal { flex-basis: 100%; font-size: 12px; opacity: .75; }
 // the links: change them here only
 const LINKS = {
   download: 'https://github.com/fellahamin/barcha-koora/releases/latest/download/BarchaKooraSetup.exe',
+  apk: 'https://github.com/fellahamin/barcha-koora/releases/latest/download/BarchaKoora.apk',
   releases: 'https://github.com/fellahamin/barcha-koora/releases',
   repo: 'https://github.com/fellahamin/barcha-koora',
   issues: 'https://github.com/fellahamin/barcha-koora/issues',
   donate: 'https://ba9chich.com/BouBatman',
   github: 'https://github.com/fellahamin',
 };
-const VERSION = '1.0.9';
+const VERSION = '1.0.9', APK_VERSION = '0.2.0';
+// « Télécharger » without more: the APK on an Android phone, the installer elsewhere
+const onAndroid = /Android/i.test(navigator.userAgent);
 
-document.querySelectorAll('[data-download]').forEach(a => { a.href = LINKS.download; });
+document.querySelectorAll('[data-download]').forEach(a => { a.href = onAndroid ? LINKS.apk : LINKS.download; });
+document.querySelectorAll('[data-win]').forEach(a => { a.href = LINKS.download; });
+document.querySelectorAll('[data-apk]').forEach(a => { a.href = LINKS.apk; });
 document.querySelectorAll('[data-donate]').forEach(a => { a.href = LINKS.donate; a.target = '_blank'; a.rel = 'noopener'; });
 for (const key of ['github', 'repo', 'releases', 'issues']) {
   document.querySelectorAll(`[data-${key}]`).forEach(a => { a.href = LINKS[key]; a.target = '_blank'; a.rel = 'noopener'; });
 }
-document.querySelectorAll('[data-version]').forEach(s => { s.textContent = 'Version ' + VERSION; });
+document.querySelectorAll('[data-version]').forEach(s => { s.textContent = `Windows ${VERSION} (~30 Mo)`; });
+document.querySelectorAll('[data-apk-version]').forEach(s => { s.textContent = `Android ${APK_VERSION} bêta (~18 Mo)`; });
 
 // the ticker: demo scores, twice so the loop has no seam
 const SCORES = [
